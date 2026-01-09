@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model artifacts
+*.pth
+*.pt
+*.onnx
+
+# Outputs
+outputs/
+logs/
+
+# Dataset images (IGNORE)
+dataset/**/images/
+
+# Large files
+*.zip
+*.rar
+*.7z
+
+# Videos
+*.mp4
+*.avi

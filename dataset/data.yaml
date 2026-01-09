@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['missing_hole', 'mouse_bite', 'open_circuit', 'short', 'spur', 'spurious_copper']
+
+roboflow:
+  workspace: jr-mqqnk
+  project: pcb-defects-detection-anddl
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/jr-mqqnk/pcb-defects-detection-anddl/dataset/1
